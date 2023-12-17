@@ -1,0 +1,53 @@
+@import "../../assets/style/variables";
+
+.footerParent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: $white;
+}
+
+.footer {
+  min-height: 45vh;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 86%;
+  position: relative;
+  bottom: 0;
+  background-color: $black_50;
+  overflow: hidden;
+  color: $white;
+}
+
+.footerTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.root {
+  font-size: 12px;
+}
+
+.footerHref {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 2vh;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  color: $white;
+}
+
+.blockCard {
+  display: flex;
+}
+
+@media #{$mobile , $tablet} {
+    .blockCard {
+      flex-direction: column;
+    }
+
+  .footer {
+    margin-bottom: 8rem;
+  }
+}

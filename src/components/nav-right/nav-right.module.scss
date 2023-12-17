@@ -1,0 +1,100 @@
+@import "../../assets/style/variables";
+
+.nav {
+  height: 100vh;
+  position: fixed;
+  top: 15%;
+  right: 0%;
+  color: wheat;
+  z-index: 11;
+
+  .navRight {
+    background-color: #1f1f1f;
+    width: 4vw;
+    height: 80%;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: 9;
+    transition: 0.6s;
+    flex-direction: column !important;
+  }
+
+  .blockNav {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .rightBig {
+    width: 40vw ;
+    transition: 0.6s;
+    overflow: auto
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: auto;
+    position: relative;
+    bottom: 0;
+  }
+
+  .navBackground{
+    width: 0vw;
+    height: 130vh;
+    top: -20%;
+    transition: 0.6s;
+    right: 0%;
+    position: fixed;
+    background-color: black;
+    border-radius: 30px;
+  }
+
+  .navBackgroundHover {
+    width: 100vw;
+    transition: 0.6s;
+    opacity: 40%;
+    top: -20%;
+
+  }
+
+  .btn {
+    background-color: $red_btn;
+    border: none;
+    color: $white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+  .active {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .disabled {
+    display: none;
+  }
+
+  .titleCard {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media #{$mobile , $tablet} {
+  .nav {
+    top: 7.5%;
+
+    .rightBig {
+      width: 100vw;
+    }
+  }
+}
+

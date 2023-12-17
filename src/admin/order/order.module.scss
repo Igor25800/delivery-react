@@ -1,0 +1,25 @@
+@import "../../assets/style/variables";
+
+.order {
+  color: $white;
+  display: flex;
+  flex-wrap: wrap;
+
+  .card {
+     background: $card_black;
+     width: 30%;
+     padding: 2rem;
+     border-radius: 25px;
+     margin-left: 2.5rem;
+
+    .title {
+      text-align: center;
+    }
+
+    .btn {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

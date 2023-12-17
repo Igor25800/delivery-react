@@ -1,0 +1,28 @@
+@import "../../assets/style/variables";
+
+.discounts {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .card {
+    margin-top: 1rem;
+    width: 47%;
+
+    .img {
+      width: 100%;
+      border-radius: 25px;
+    }
+  }
+}
+
+@media #{$mobile , $tablet} {
+  .discounts {
+    flex-direction: column;
+
+    .card {
+      width: 100%;
+    }
+  }
+}

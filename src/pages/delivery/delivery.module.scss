@@ -1,0 +1,15 @@
+@import "../../assets/style/variables";
+
+.delivery{
+  background-color: $black_50;
+  min-width: 45%;
+  height: 45vh;
+  border-radius: 20px;
+  padding: 2%;
+}
+.circle{
+  width: 15px;
+  height: 15px;
+  background-color: $green;
+  border-radius: 50%;
+}

@@ -1,0 +1,19 @@
+.upload {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  span {
+    width: 50%;
+  }
+
+  .img {
+    width: 20%;
+  }
+
+  .btn {
+    width: 45%;
+  }
+}

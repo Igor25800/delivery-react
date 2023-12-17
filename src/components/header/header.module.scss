@@ -1,12 +1,16 @@
+@import "../../assets/style/variables";
+
 .header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  background-color: #1f1f1f;
+  justify-content: space-around;
+  background-color: $black_50;
   padding: 10px;
   width: 100%;
-  z-index: 10;
+  z-index: 1;
+  position: fixed;
+  top: 0;
 
   .nav {
     display: flex;
@@ -16,9 +20,55 @@
     .li {
       font-size: 20px;
       margin-left: 5%;
-      color: white;
+      color: $white;
       text-decoration: none;
       cursor: pointer;
     }
   }
+
+  .contacts {
+
+    .numbers {
+      color: $white;
+    }
+  }
+
+  .basket {
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .price {
+      margin-right: 1rem;
+    }
+
+    .img {
+      cursor: pointer;
+    }
+  }
+
+  .logo {
+
+    .img {
+      width: 100px;
+      margin-left: 5%;
+    }
+  }
 }
+
+@media #{$mobile , $tablet} {
+  .header {
+    justify-content: space-between;
+
+    .contacts {
+      display: none;
+
+    }
+
+    .nav {
+      display: none;
+    }
+  }
+}
+

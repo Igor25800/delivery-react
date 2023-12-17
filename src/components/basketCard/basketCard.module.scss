@@ -1,0 +1,39 @@
+@import "../../assets/style/variables";
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  background-color: $black;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  padding: 16px 20px;
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+
+  .title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .name {
+    width: 30%;
+  }
+
+  .count {
+    width: 30%;
+  }
+
+  .cross {
+    transform: rotate(45deg);
+    cursor: pointer;
+    width: 5%;
+  }
+
+  .img {
+    width: 20%;
+  }
+}
+

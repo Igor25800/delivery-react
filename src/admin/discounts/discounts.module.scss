@@ -1,0 +1,17 @@
+.discounts {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-radius: 25px;
+
+  .discountCard {
+    width: 47%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+}

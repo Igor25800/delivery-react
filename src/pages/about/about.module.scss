@@ -1,0 +1,37 @@
+@import "../../assets/style/variables";
+
+.about{
+  width: 96%;
+  height: 70vh;
+
+  .aboutImg{
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .aboutCard {
+    position: absolute;
+    top: 38%;
+    left: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .aboutTitle{
+    margin-bottom: 3rem;
+
+  }
+
+  .aboutText {
+    width: 82%;
+    color: $white;
+    font-size: 20px;
+  }
+}
+
+.inst{
+  background-color: $red_50;
+  color: $white;
+  border-radius: 10px;
+}

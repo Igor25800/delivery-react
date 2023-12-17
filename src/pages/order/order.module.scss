@@ -1,0 +1,37 @@
+@import "../../assets/style/variables";
+
+.order {
+  display: flex;
+  justify-content: space-evenly;
+
+  .orderCard {
+    background-color: $black_50;
+    border-radius: 24px;
+    margin-bottom: 24px!important;
+    padding: 32px;
+    margin-top: 1rem;
+
+    .card {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      background-color: $black;
+      border-radius: 12px;
+      padding: 16px 20px;
+      width: 100%;
+
+    }
+  }
+
+  .orderForm {
+    background-color: #1f1f1f;
+    border-radius: 24px;
+    margin-bottom: 24px!important;
+    padding: 32px;
+  }
+}
+
+@media #{$mobile , $tablet}  {
+    .order {
+      flex-direction: column;
+    }
+}

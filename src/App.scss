@@ -1,0 +1,23 @@
+@import './assets/style/boostap';
+
+.main {
+  max-width: 100%;
+  margin: 7.4% 5% 5% 7%;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  max-height: 60px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 3, 3);
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+body, html {
+  height: 100%;
+}

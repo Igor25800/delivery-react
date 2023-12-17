@@ -1,0 +1,27 @@
+@import "../../../assets/style/variables";
+
+.category {
+  margin-top: 2rem;
+
+  .card {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 30px;
+    background-color: $black_50;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .cardImg {
+      width: 50%;
+    }
+  }
+
+  .card:hover {
+    border: $white solid 3px;
+    border-radius: 30px;
+  }
+}
