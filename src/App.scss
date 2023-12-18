@@ -1,4 +1,5 @@
 @import './assets/style/boostap';
+@import "./assets/style/variables";
 
 .main {
   max-width: 100%;
@@ -20,4 +21,17 @@
 
 body, html {
   height: 100%;
+}
+@media #{$mobile} {
+  .main {
+    max-width: 100%;
+    margin: 15% 2% 7% 2%;
+  }
+}
+
+@media #{$tablet} {
+  .main {
+    max-width: 100%;
+    margin: 7% 2% 7% 2%;
+  }
 }

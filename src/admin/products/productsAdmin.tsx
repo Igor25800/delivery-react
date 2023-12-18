@@ -183,7 +183,7 @@ const ProductsAdmin = () => {
                 </ModalAdmin>
             </div>
             <TableMaterial
-                tableBody={filteredData}
+                tableBody={filteredData }
                 tableHeader={['category', 'name', 'weight', 'price', 'description']}
                 eventDelete={deleteProduct}
                 eventEdit={editProduct}

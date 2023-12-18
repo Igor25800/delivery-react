@@ -15,7 +15,7 @@ import clsx from "clsx";
 
 interface tableProps {
     tableHeader: Array<string> | undefined;
-    tableBody: Array< ICategory | IProducts> | undefined;
+    tableBody: Array<ICategory | IProducts> | undefined;
     eventEdit: (event: ICategory | IProducts) => void;
     eventDelete: (event: (ICategory | IProducts) | undefined) => void;
     tableName: boolean;

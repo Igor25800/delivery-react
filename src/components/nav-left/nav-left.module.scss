@@ -79,11 +79,14 @@
       bottom: 0;
       height: 8rem;
       overflow-x: hidden;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
 
       .card {
         padding: 0;
         margin-top: 1rem;
+        width: 100px;
+        display: flex;
+        justify-content: center;
 
         .img {
           position: relative ;

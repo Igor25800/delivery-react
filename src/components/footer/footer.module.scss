@@ -43,11 +43,23 @@
 }
 
 @media #{$mobile , $tablet} {
-    .blockCard {
-      flex-direction: column;
-    }
+  .blockCard {
+    flex-direction: column;
+  }
 
   .footer {
+    width: 95%;
     margin-bottom: 8rem;
+  }
+
+  .footerTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .centr {
+    display: flex;
+    justify-content: center;
   }
 }
