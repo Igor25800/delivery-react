@@ -1,11 +1,11 @@
 import React from 'react';
-import style from './nav-left.module.scss'
+import style from './navLeft.module.scss'
 import {useGetCategoryQuery} from "../../store/services/CategoryApi";
 import {ICategory} from "../../shared/interfaces/category/category";
 import { NavLink } from 'react-router-dom';
 
 const NavLeft = () => {
-    const {data, isLoading} = useGetCategoryQuery();
+    const {data} = useGetCategoryQuery();
 
     return (
         <div className={style.nav}>

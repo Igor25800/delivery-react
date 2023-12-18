@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './nav-right.module.scss';
+import style from './navRight.module.scss';
 import { useDispatch } from "react-redux";
 import { InterfaceStore } from "../../store/store";
 import {modalBasket, removeProduct} from "../../store/slices/basket";
